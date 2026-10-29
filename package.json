@@ -1,0 +1,17 @@
+{
+  "name": "webhook-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Signed webhook receiver/sender building blocks: HMAC verify, Stripe-style verify, idempotency, retry with a delivery log. Local starting point, not a published package.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.12"
+  }
+}
